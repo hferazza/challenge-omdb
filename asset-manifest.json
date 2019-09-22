@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hferazza/challenge-omdb/static/css/main.45f7f94f.chunk.css",
+    "main.js": "/hferazza/challenge-omdb/static/js/main.86d75b18.chunk.js",
+    "main.js.map": "/hferazza/challenge-omdb/static/js/main.86d75b18.chunk.js.map",
+    "runtime-main.js": "/hferazza/challenge-omdb/static/js/runtime-main.f57db9f9.js",
+    "runtime-main.js.map": "/hferazza/challenge-omdb/static/js/runtime-main.f57db9f9.js.map",
+    "static/js/2.421314c9.chunk.js": "/hferazza/challenge-omdb/static/js/2.421314c9.chunk.js",
+    "static/js/2.421314c9.chunk.js.map": "/hferazza/challenge-omdb/static/js/2.421314c9.chunk.js.map",
+    "index.html": "/hferazza/challenge-omdb/index.html",
+    "precache-manifest.08c7e6409564ac131c68c06ec651ae68.js": "/hferazza/challenge-omdb/precache-manifest.08c7e6409564ac131c68c06ec651ae68.js",
+    "service-worker.js": "/hferazza/challenge-omdb/service-worker.js",
+    "static/css/main.45f7f94f.chunk.css.map": "/hferazza/challenge-omdb/static/css/main.45f7f94f.chunk.css.map"
+  }
+}
