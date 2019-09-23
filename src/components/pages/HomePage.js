@@ -3,10 +3,10 @@ import SearchForm from '../parts/SearchForm';
 import '../../assets/css/HomePage.css';
 
 const HomePage = () => {
-  return (
+  return (   
     <div className="Home grey darken-4">
       <div className="container">
-        <h2>Pesquise por filmes e séries</h2>
+        <h1>Pesquise por filmes e séries</h1>
         <SearchForm />
       </div>
     </div>

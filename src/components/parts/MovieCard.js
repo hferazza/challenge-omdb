@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import '../../assets/css/MovieCard.css';
 import MovieDetails from '../parts/MovieDetails';
 import { getMovieDetails } from '../../store/actions/searchActions';
+import imgDefault from '../../assets/img/camera.jpg'
 
 class MovieCard extends Component {
   constructor(props){
@@ -23,13 +24,13 @@ class MovieCard extends Component {
   render() {
     const { movie, movieDetails } = this.props;
     return (
-      <div className="zoom col s3" onClick={() => this.getDetails(movie.imdbID)}>
+      <div className="zoom col s12 m6 l6 xl4" onClick={() => this.getDetails(movie.imdbID)}>
         <MovieDetails 
           movieDetails={movieDetails}
           trigger={
             <div className="card small horizontal" >
               <div className="card-image">
-                <img alt={`${movie.Title}'s Poster`} src={movie.Poster === "N/A" ? "" : movie.Poster} />
+                <img alt={`${movie.Title}'s Poster`} src={movie.Poster === "N/A" ? imgDefault : movie.Poster} />
               </div>
               <div className="card-stacked">
                 <div className="card-content">
@@ -61,29 +62,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps,mapDispatchToProps)(MovieCard);
-
-        /* <div className="card small horizontal" onClick={() => this.getDetails(movie.imdbID)}>
-          <div className="card-image">
-            <img alt={`${movie.Title}'s Poster`} src={movie.Poster === "N/A" ? "" : movie.Poster} />
-          </div>
-          <div className="card-stacked">
-            <div className="card-content">
-              <p className="movie-type red-text text-darken-2">{movie.Type}</p>
-              <span className="card-title small grey-text text-darken-4 trunc">{movie.Title}</span>
-              <p className="green-text text-accent-4">{movie.Year}</p>
-            </div>
-            <div className="card-action">
-              <MovieDetails 
-                header={movie.Title} 
-                movieDetails={movieDetails}
-                trigger={
-                
-                
-                
-                  <div className="red-text text-darken-4">VER MAIS</div>
-                
-                }
-              />
-            </div>
-          </div>
-        </div> */

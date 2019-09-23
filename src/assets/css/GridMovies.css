@@ -11,3 +11,15 @@
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
+.pagination li a{
+  font-size: 2.5rem;
+  padding: 10px 15px;
+}
+.pagination li {
+  height: inherit;
+}
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

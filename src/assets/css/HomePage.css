@@ -5,8 +5,12 @@
   align-items: center;
   justify-content: center;
   color: white;
+  background: url(/img/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
-.Home h2{
+.Home h1{
   text-align: center;
   margin-bottom: 80px;
+  font-size: 5.5rem;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Modal, Row, Col, Collection, CollectionItem, Icon } from 'react-materialize';
 import '../../assets/css/MovieDetails.css';
+import imgDefault from '../../assets/img/camera.jpg'
 
 class MovieDetails extends Component {
   constructor(props) {
@@ -36,7 +37,7 @@ class MovieDetails extends Component {
           <Row>
             <h3>{title} (<span className="green-text text-accent-4">{year}</span>)</h3>
             <Col s={4}>
-              <img className="poster" alt={`${title}'s Poster`} src={poster === "N/A" ? "" : poster} />
+              <img className="poster" alt={`${title}'s Poster`} src={poster === "N/A" ? imgDefault : poster} />
               <Collection>
                 <CollectionItem>
                 <span className="title">Avaliações</span><br/>
