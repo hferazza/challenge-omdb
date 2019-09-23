@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/challenge-omdb/static/css/main.45f7f94f.chunk.css",
-    "main.js": "/challenge-omdb/static/js/main.331a1941.chunk.js",
-    "main.js.map": "/challenge-omdb/static/js/main.331a1941.chunk.js.map",
+    "main.css": "/challenge-omdb/static/css/main.46b3c34b.chunk.css",
+    "main.js": "/challenge-omdb/static/js/main.80a01f41.chunk.js",
+    "main.js.map": "/challenge-omdb/static/js/main.80a01f41.chunk.js.map",
     "runtime-main.js": "/challenge-omdb/static/js/runtime-main.1ed06803.js",
     "runtime-main.js.map": "/challenge-omdb/static/js/runtime-main.1ed06803.js.map",
-    "static/js/2.421314c9.chunk.js": "/challenge-omdb/static/js/2.421314c9.chunk.js",
-    "static/js/2.421314c9.chunk.js.map": "/challenge-omdb/static/js/2.421314c9.chunk.js.map",
+    "static/js/2.25450d97.chunk.js": "/challenge-omdb/static/js/2.25450d97.chunk.js",
+    "static/js/2.25450d97.chunk.js.map": "/challenge-omdb/static/js/2.25450d97.chunk.js.map",
     "index.html": "/challenge-omdb/index.html",
-    "precache-manifest.87016c9336b7de158068d571d72e88c0.js": "/challenge-omdb/precache-manifest.87016c9336b7de158068d571d72e88c0.js",
+    "precache-manifest.e54e6e7d46131060c4cf3095aaf1d238.js": "/challenge-omdb/precache-manifest.e54e6e7d46131060c4cf3095aaf1d238.js",
     "service-worker.js": "/challenge-omdb/service-worker.js",
-    "static/css/main.45f7f94f.chunk.css.map": "/challenge-omdb/static/css/main.45f7f94f.chunk.css.map"
+    "static/css/main.46b3c34b.chunk.css.map": "/challenge-omdb/static/css/main.46b3c34b.chunk.css.map",
+    "static/media/camera.jpg": "/challenge-omdb/static/media/camera.f19d9264.jpg"
   }
 }
