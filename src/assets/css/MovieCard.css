@@ -1,0 +1,21 @@
+.movie-type{
+  text-transform: uppercase;
+}
+.row{
+  margin-top: 20px;
+}
+
+.trunc {
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.zoom{
+  transition: transform .2s;
+  cursor: pointer;
+}
+.zoom:hover{
+  transform: scale(1.04);
+}

@@ -1,0 +1,13 @@
+.movie-type{
+  text-transform: uppercase;
+}
+.row{
+  margin-top: 20px;
+}
+
+.trunc {
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
